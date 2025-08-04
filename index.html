@@ -154,7 +154,7 @@
                         <span class="text-primary text-shadow-glow">TianLi</span> 我的世界服务器
                     </h1>
                     <p class="text-[clamp(1rem,3vw,1.25rem)] text-gray-200 mb-10 max-w-2xl mx-auto">
-                        加入我们的奇幻世界，与众多玩家一起探索、建造、冒险。由 kute3314 和 ChampionKoala93 精心打造的优质游戏体验。
+                        加入我们的奇幻世界，与众多玩家一起探索、建造、冒险。由 kute3314 和 ChampionKoala93 精心打造的优质游戏体验。建议开香港加速器来保证游戏体验
                     </p>
                     <div class="flex flex-col sm:flex-row justify-center gap-4 mb-16">
                         <button class="bg-primary hover:bg-primary/90 text-white px-8 py-4 rounded-lg text-lg font-medium transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg flex items-center justify-center">
@@ -505,7 +505,7 @@
                                     </div>
                                     <div>
                                         <h3 class="text-lg font-bold mb-1">添加服务器</h3>
-                                        <p class="text-gray-400">在游戏中添加服务器地址：<span class="bg-dark/50 px-2 py-1 rounded font-mono text-primary">mc.tianli-server.com</span></p>
+                                        <p class="text-gray-400">在游戏中添加服务器地址：<span class="bg-dark/50 px-2 py-1 rounded font-mono text-primary">ld.frp.one:45026</span></p>
                                     </div>
                                 </div>
                                 
@@ -536,7 +536,7 @@
                             <div class="space-y-6">
                                 <div>
                                     <h4 class="text-gray-400 mb-1">服务器地址</h4>
-                                    <p class="bg-dark/50 px-4 py-2 rounded font-mono overflow-x-auto">mc.tianli-server.com</p>
+                                    <p class="bg-dark/50 px-4 py-2 rounded font-mono overflow-x-auto">ld.frp.one:45026</p>
                                 </div>
                                 
                                 <div>
@@ -585,7 +585,7 @@
                 <div class="text-center mb-16 animate-on-scroll">
                     <h2 class="text-[clamp(1.75rem,5vw,3rem)] font-bold mb-4">玩家评价</h2>
                     <div class="w-20 h-1 bg-primary mx-auto mb-6"></div>
-                    <p class="text-gray-300 max-w-2xl mx-auto">看看我们的玩家对TianLi服务器的真实评价</p>
+                    <p class="text-gray-300 max-w-2xl mx-auto">看看我们的玩家对TianLi服务器的假评价</p>
                 </div>
                 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
@@ -848,7 +848,7 @@
         const copyButton = document.querySelector('button:has(.fa-clipboard)');
         if (copyButton) {
             copyButton.addEventListener('click', () => {
-                const serverAddress = 'mc.tianli-server.com';
+                const serverAddress = 'ld.frp.one:45026';
                 navigator.clipboard.writeText(serverAddress).then(() => {
                     const originalText = copyButton.innerHTML;
                     copyButton.innerHTML = '<i class="fa fa-check mr-2"></i> 已复制!';
